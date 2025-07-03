@@ -14,7 +14,9 @@ public class Thrower : MonoBehaviour
             ThrowD20();
         }
     }
-
+    /// <summary>
+    /// нохяюмхе лерндю...
+    /// </summary>
     void ThrowD20()
     {
         GameObject knife = Instantiate(throwObjPrefab, spawnPoint.position, spawnPoint.rotation);
